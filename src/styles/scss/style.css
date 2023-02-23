@@ -1,0 +1,22 @@
+ body {
+    max-width: 1110px;
+    text-align: center;
+    
+ }
+ .black {
+    font-family: 'Neucha', cursive;
+    font-size: 72px;
+    line-height: 1.2em;
+}
+.yellow {
+    font-family: 'Neucha', cursive;
+    font-size: 72px;
+    line-height: 1.2em;  
+    
+}
+ p {
+    font-family: 'Open Sans', sans-serif;
+    color: #2A2626;
+    font-size: 16px;
+    line-height: 1.6em;
+}
