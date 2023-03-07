@@ -1,40 +1,69 @@
-*::before {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    box-sizing: border-box;
-}
-body  {
-    margin: 0px;
-    padding: 0px;
-    max-width: 100%;
-}
 
 .el1 {
     width: 1440px;
-    height: 915px;
+    height: 914px;
     background-image: url(/home/bogdan/git-projects/layout-designer-project-58/source-images/background.png);
     opacity: 0.06;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    top:100px;
-    bottom:100px;
+    background-attachment: fixed;
 }
 
-.yellow {
+h1 {
     font-family: 'Neucha', cursive;
     font-size: 72px;
     line-height: 1.2em;
     position: absolute;
-    bottom: 100px;
+    height: 178px;
     left:165px; 
+    top: 100px;
+    
 }
-
+.yellow {
+    color: #FE8A02;
+}
+.black {
+   
+}
 .container {
     max-width: 1138px;
     margin: 0px auto;
 
 }
+.image {
+    position:absolute;
+    height: 525px;
+    top: 55px;
+    left: 461px;
+}
+.block1{
+    font-family: 'Open Sans', sans-serif;
+    color: #2A2626;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-top: 0px;
+}
+.block2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #2A2626;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-top: 0px;
    
- 
+}
+.block {
+    columns: 540px 2;
+    column-gap: 30px;
+    position: absolute;
+    margin-top: 50px;
+    top: 543px;
+    
+    
+}
+
+
+
+
+   
+
+
