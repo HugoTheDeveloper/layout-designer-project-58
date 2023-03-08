@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .background {
     position: relative;
     width: 100vw;
@@ -29,12 +34,11 @@ h1 {
     margin: 0;
 
 }
+
 .image {
-    position:absolute;
-    height: 525px;
-    top: 55px;
-    left: 461px;
-}
+    margin-left: 500px;
+} 
+
 .block1{
     
     font-family: 'Open Sans', sans-serif;
@@ -54,8 +58,15 @@ h1 {
 .block {
     columns: 540px 2;
     column-gap: 30px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
+.block > * > p {
+    margin: 0;
+    margin-bottom: 10px;
+}
 
 
 
