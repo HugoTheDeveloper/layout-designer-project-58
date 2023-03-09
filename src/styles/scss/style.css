@@ -1,11 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
-.el1 {
-    width: 1440px;
-    height: 914px;
-    background-image: url(/home/bogdan/git-projects/layout-designer-project-58/source-images/background.png);
-    opacity: 0.06;
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../source-images/background.png);
+    opacity: 0.1;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-attachment: fixed;
 }
 
@@ -22,21 +27,20 @@ h1 {
 .yellow {
     color: #FE8A02;
 }
-.black {
-   
-}
 .container {
-    max-width: 1138px;
-    margin: 0px auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
 
 }
+
 .image {
-    position:absolute;
-    height: 525px;
-    top: 55px;
-    left: 461px;
-}
+    margin-left: 500px;
+} 
+
 .block1{
+    
     font-family: 'Open Sans', sans-serif;
     color: #2A2626;
     font-size: 16px;
@@ -54,13 +58,15 @@ h1 {
 .block {
     columns: 540px 2;
     column-gap: 30px;
-    position: absolute;
-    margin-top: 50px;
-    top: 543px;
-    
-    
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
+.block > * > p {
+    margin: 0;
+    margin-bottom: 10px;
+}
 
 
 
